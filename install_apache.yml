@@ -5,7 +5,7 @@
 
   - name: update repository index
     ansible.builtin.apt:
-      update_cachr: yes
+      update_cache: yes
 
   - name: install apache2 package
     ansible.builtin.apt:
